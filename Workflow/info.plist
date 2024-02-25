@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.vitorgalvao.alfred.playaddress</string>
+	<key>connections</key>
+	<dict>
+		<key>197D2E43-384A-44B1-BE86-B36582E4CE52</key>
+		<array/>
+		<key>2A6E6714-5543-4382-85D9-2893092994AE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>53203E13-5E98-48A3-AA4E-CEED99A44558</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2C17F6E1-CA91-4D8D-B014-91010DFDCD35</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44536763-20B3-472C-A64C-F7002D81575E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Download video to watch later</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>777AB874-0986-4018-9837-93001E41F746</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>44536763-20B3-472C-A64C-F7002D81575E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9DE542B7-E914-43FA-8CBB-7A593854A9A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>47F603A1-4B31-4168-8960-0940434C5C49</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>53203E13-5E98-48A3-AA4E-CEED99A44558</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>61AA3E40-F1E8-4E01-98A6-8B34C896960C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7154C69F-D0BB-4017-9966-746BC32094BC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>79289C24-D237-4E6E-A781-3C54066C0461</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2A69D82-CD4D-41C5-98E8-C72778CF8772</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>777AB874-0986-4018-9837-93001E41F746</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>79289C24-D237-4E6E-A781-3C54066C0461</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7B7200CD-A926-4DE2-BE44-8770C4D74A76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>0BC66730-6EE7-4E58-B4AA-61C984B7ED91</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>197D2E43-384A-44B1-BE86-B36582E4CE52</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B7200CD-A926-4DE2-BE44-8770C4D74A76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A6E6714-5543-4382-85D9-2893092994AE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>777AB874-0986-4018-9837-93001E41F746</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9DE542B7-E914-43FA-8CBB-7A593854A9A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F12F88AD-A545-45A5-B105-3741BD747F94</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D96FCE65-4967-4D6A-806F-628154EBCADB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7154C69F-D0BB-4017-9966-746BC32094BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DB32027E-B578-4E99-A521-5069C2DE6EC7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>777AB874-0986-4018-9837-93001E41F746</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F12F88AD-A545-45A5-B105-3741BD747F94</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A139310D-4E65-49FB-BBA2-6E0130FC6051</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Play the URL in the frontmost browser or clipboard</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Play Address</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function status(download_media_installed, download_url) {
+  return JSON.stringify({ alfredworkflow: {
+    variables: { download_media_installed: download_media_installed },
+    arg: download_url
+  }})
+}
+
+function run(argv) {
+  const url = argv[0]
+
+  try {
+    Application("com.runningwithcrayons.Alfred").runTrigger("download_video", { inWorkflow: "com.vitorgalvao.alfred.downloadmedia", withArgument: url })
+    return status(true, url)
+  } catch {
+    return status(false, url)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>44536763-20B3-472C-A64C-F7002D81575E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://alfred.app/workflows/vitor/download-media/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A139310D-4E65-49FB-BBA2-6E0130FC6051</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:play_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Grabbing URLs…</string>
+				<key>script</key>
+				<string>function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs-current").stringByExpandingTildeInPath.js,
+  "frontmost_browser", "0", "url_tab_title")
+
+const clipboardRaw = runCommand("/usr/bin/sqlite3",
+  "-newline", "",
+  $("~/Library/Application Support/Alfred/Databases/clipboard.alfdb").stringByExpandingTildeInPath.js,
+  "SELECT item FROM (SELECT item, MAX(ts) FROM clipboard WHERE dataType = 0 AND item LIKE \"http%\")")
+
+let scriptFilterItems = []
+
+if (browserRaw.length &gt; 0) {
+  const browserParsed = JSON.parse(browserRaw)["alfredworkflow"]["arg"].split("\t")
+
+  scriptFilterItems.push({
+    title: browserParsed[1],
+    subtitle: browserParsed[0],
+    icon: { path: "images/browser.png" },
+    arg: browserParsed[0]
+  })
+}
+
+if (clipboardRaw.length &gt; 0) {
+  scriptFilterItems.push({
+    title: "Play Clipboard URL",
+    subtitle: clipboardRaw,
+    icon: { path: "images/clipboard.png" },
+    arg: clipboardRaw
+  })
+}
+
+if (scriptFilterItems.length === 0) {
+  JSON.stringify({ items: [{
+    title: "No URL found",
+    subtitle: "Did not find a URL in the clipboard or a supported browser",
+    valid: false
+  }]})
+} else {
+  JSON.stringify({ items: scriptFilterItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>{const:alfred_workflow_description}</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2C17F6E1-CA91-4D8D-B014-91010DFDCD35</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Install From the Alfred Gallery</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The Download Media workflow is required to download video.</string>
+				<key>title</key>
+				<string>Download Media Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>F12F88AD-A545-45A5-B105-3741BD747F94</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:download_media_installed}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Download Media</string>
+						<key>uid</key>
+						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9DE542B7-E914-43FA-8CBB-7A593854A9A9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{query}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.matching.close</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly url="${1}"
+
+if yt-dlp --simulate --quiet "${url}"
+then
+  echo "{ \"alfredworkflow\" : { \"arg\" : \"${url}\", \"variables\" : { \"playable\" : true }}}"
+else
+  echo '{ "alfredworkflow" : { "variables" : { "playable" : false }}}'
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<false/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Play URL</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>DB32027E-B578-4E99-A521-5069C2DE6EC7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:close_tabs}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Close tabs</string>
+						<key>uid</key>
+						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:playable}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Playable URL</string>
+						<key>uid</key>
+						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Not Playable</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7154C69F-D0BB-4017-9966-746BC32094BC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>777AB874-0986-4018-9837-93001E41F746</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://alfred.app/workflows/vitor/watch-list/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>61AA3E40-F1E8-4E01-98A6-8B34C896960C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function status(watch_list_installed, stream_url) {
+  return JSON.stringify({ alfredworkflow: {
+    variables: { watch_list_installed: watch_list_installed },
+    arg: stream_url
+  }})
+}
+
+function run(argv) {
+  const url = argv[0]
+
+  try {
+    Application("com.runningwithcrayons.Alfred").runTrigger("add_and_play_stream", { inWorkflow: "com.vitorgalvao.alfred.watchlist", withArgument: url })
+    return status(true, url)
+  } catch {
+    return status(false, url)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7B7200CD-A926-4DE2-BE44-8770C4D74A76</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>35</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>P</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.google.Chrome.canary</string>
+					<string>com.vivaldi.Vivaldi</string>
+					<string>com.apple.Safari</string>
+					<string>com.brave.Browser</string>
+					<string>com.brave.Browser.beta</string>
+					<string>com.apple.SafariTechnologyPreview</string>
+					<string>com.microsoft.edgemac.Beta</string>
+					<string>com.microsoft.edgemac.Canary</string>
+					<string>com.microsoft.edgemac.Dev</string>
+					<string>com.brave.Browser.dev</string>
+					<string>org.chromium.ChromiumChromium</string>
+					<string>com.kagi.kagimacOS.RC</string>
+					<string>com.kagi.kagimacOS</string>
+					<string>com.brave.Browser.nightly</string>
+					<string>com.operasoftware.Opera</string>
+					<string>com.google.Chrome</string>
+					<string>company.thebrowser.Browser</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>47F603A1-4B31-4168-8960-0940434C5C49</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.current</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Install From the Alfred Gallery</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The Watch List workflow is required to play a stream through it.</string>
+				<key>title</key>
+				<string>Watch List Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>53203E13-5E98-48A3-AA4E-CEED99A44558</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:watch_list_installed}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Watch List</string>
+						<key>uid</key>
+						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>2A6E6714-5543-4382-85D9-2893092994AE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:add_to_watchlist}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Use WatchList</string>
+						<key>uid</key>
+						<string>0BC66730-6EE7-4E58-B4AA-61C984B7ED91</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>79289C24-D237-4E6E-A781-3C54066C0461</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly url="${1}"
+
+# CLI players
+if hash 'mpv' 2&gt; /dev/null
+then
+  mpv --no-terminal "${url}"
+  exit 0
+fi
+
+# GUI players
+for gui in 'io.mpv' 'com.vitorgalvao.mpvdummy' 'com.colliderli.iina' 'org.videolan.vlc'
+do
+  if [[ "$(/usr/bin/mdfind kMDItemCFBundleIdentifier = "${gui}")" ]]
+  then
+    open -na "${gui}" --args "${url}"
+    exit 0
+  fi
+done
+
+# Nothing found
+echo 'To play a stream you need mpv, iina, or vlc.' &gt;&amp;2
+exit 1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>197D2E43-384A-44B1-BE86-B36582E4CE52</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Basso</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>B2A69D82-CD4D-41C5-98E8-C72778CF8772</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+Stream the the most recent URL in your [Clipboard History](https://www.alfredapp.com/help/features/clipboard/) or the URL in the frontmost browser tab to a local video player via the `playadd` keyword.
+
+![Showing available URLs](images/about/playadd.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://lhc70000.github.io/iina/), or [VLC](http://www.videolan.org/vlc/index.html),
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
+
+Set if matching browser tabs close or if the stream is passed through [Watch List](https://alfred.app/workflows/vitor/watch-list/) in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).</string>
+	<key>uidata</key>
+	<dict>
+		<key>197D2E43-384A-44B1-BE86-B36582E4CE52</key>
+		<dict>
+			<key>note</key>
+			<string>Play video</string>
+			<key>xpos</key>
+			<real>1110</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>2A6E6714-5543-4382-85D9-2893092994AE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>1270</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>2C17F6E1-CA91-4D8D-B014-91010DFDCD35</key>
+		<dict>
+			<key>xpos</key>
+			<real>70</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>44536763-20B3-472C-A64C-F7002D81575E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>Download video with Download Media</string>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>47F603A1-4B31-4168-8960-0940434C5C49</key>
+		<dict>
+			<key>note</key>
+			<string>Play tab from frontmost browser</string>
+			<key>xpos</key>
+			<real>70</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>53203E13-5E98-48A3-AA4E-CEED99A44558</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>1345</real>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
+		<key>61AA3E40-F1E8-4E01-98A6-8B34C896960C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>1510</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>7154C69F-D0BB-4017-9966-746BC32094BC</key>
+		<dict>
+			<key>xpos</key>
+			<real>745</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>777AB874-0986-4018-9837-93001E41F746</key>
+		<dict>
+			<key>xpos</key>
+			<real>405</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>79289C24-D237-4E6E-A781-3C54066C0461</key>
+		<dict>
+			<key>xpos</key>
+			<real>940</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>7B7200CD-A926-4DE2-BE44-8770C4D74A76</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Play video with Watch List</string>
+			<key>xpos</key>
+			<real>1110</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</key>
+		<dict>
+			<key>xpos</key>
+			<real>250</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>9DE542B7-E914-43FA-8CBB-7A593854A9A9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>485</real>
+			<key>ypos</key>
+			<real>75</real>
+		</dict>
+		<key>A139310D-4E65-49FB-BBA2-6E0130FC6051</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>725</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>B2A69D82-CD4D-41C5-98E8-C72778CF8772</key>
+		<dict>
+			<key>xpos</key>
+			<real>925</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</key>
+		<dict>
+			<key>xpos</key>
+			<real>1110</real>
+			<key>ypos</key>
+			<real>195</real>
+		</dict>
+		<key>D96FCE65-4967-4D6A-806F-628154EBCADB</key>
+		<dict>
+			<key>note</key>
+			<string>Check if URL can be played</string>
+			<key>xpos</key>
+			<real>560</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>DB32027E-B578-4E99-A521-5069C2DE6EC7</key>
+		<dict>
+			<key>xpos</key>
+			<real>70</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>F12F88AD-A545-45A5-B105-3741BD747F94</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>560</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</key>
+		<dict>
+			<key>note</key>
+			<string>Continue if closing tabs</string>
+			<key>xpos</key>
+			<real>965</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>playadd</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Play Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>play_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Close matching browser tabs</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Output</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>close_tabs</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Play through Watch List workflow</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>add_to_watchlist</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2024.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/vitorgalvao/play-address-workflow/</string>
+</dict>
+</plist>
