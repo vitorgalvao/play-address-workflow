@@ -871,7 +871,7 @@ for gui in 'io.mpv' 'com.vitorgalvao.mpvdummy' 'com.colliderli.iina' 'org.videol
 do
   if [[ "$(/usr/bin/mdfind kMDItemCFBundleIdentifier = "${gui}")" ]]
   then
-    open -na "${gui}" --args "${url}"
+    open -nb "${gui}" --args "${url}"
     exit 0
   fi
 done
