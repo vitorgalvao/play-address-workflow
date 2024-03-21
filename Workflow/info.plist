@@ -384,7 +384,7 @@ function run(argv) {
 }
 
 const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs-current").stringByExpandingTildeInPath.js,
-  "frontmost_browser", "0", "url_tab_title")
+  "frontmost_browser", "0", "json")
 
 const clipboardRaw = runCommand("/usr/bin/sqlite3",
   "-newline", "",
@@ -394,13 +394,13 @@ const clipboardRaw = runCommand("/usr/bin/sqlite3",
 let scriptFilterItems = []
 
 if (browserRaw.length &gt; 0) {
-  const browserParsed = JSON.parse(browserRaw)["alfredworkflow"]["arg"].split("\t")
+  const browserParsed = JSON.parse(JSON.parse(browserRaw)["alfredworkflow"]["arg"])
 
-  scriptFilterItems.push({
-    title: browserParsed[1],
-    subtitle: browserParsed[0],
+  if (browserParsed.url) scriptFilterItems.push({
+    title: browserParsed.title,
+    subtitle: browserParsed.url,
     icon: { path: "images/browser.png" },
-    arg: browserParsed[0]
+    arg: browserParsed.url
   })
 }
 
