@@ -33,7 +33,7 @@
 				<key>modifiersubtext</key>
 				<string>Download video to watch later</string>
 				<key>vitoclose</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
