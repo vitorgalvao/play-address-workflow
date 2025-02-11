@@ -916,7 +916,7 @@ Stream the the most recent URL in your [Clipboard History](https://www.alfredapp
 
 ![Showing available URLs](images/about/playadd.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt; Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://lhc70000.github.io/iina/), or [VLC](http://www.videolan.org/vlc/index.html),
+* &lt;kbd&gt;↩&lt;/kbd&gt; Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://iina.io/), or [VLC](http://www.videolan.org/vlc/index.html),
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
 
 Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.
