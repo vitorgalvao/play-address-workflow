@@ -936,7 +936,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>2A6E6714-5543-4382-85D9-2893092994AE</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>xpos</key>
 			<real>1270</real>
 			<key>ypos</key>
@@ -972,7 +972,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>53203E13-5E98-48A3-AA4E-CEED99A44558</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>xpos</key>
 			<real>1345</real>
 			<key>ypos</key>
@@ -981,7 +981,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>61AA3E40-F1E8-4E01-98A6-8B34C896960C</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>xpos</key>
 			<real>1510</real>
 			<key>ypos</key>
@@ -1011,7 +1011,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>7B7200CD-A926-4DE2-BE44-8770C4D74A76</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>11</integer>
+			<integer>12</integer>
 			<key>note</key>
 			<string>Play video with Watch List</string>
 			<key>xpos</key>
