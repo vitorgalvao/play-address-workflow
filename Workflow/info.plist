@@ -406,7 +406,7 @@ if (browserRaw.length &gt; 0) {
 
 if (clipboardRaw.length &gt; 0) {
   scriptFilterItems.push({
-    title: "Play Clipboard URL",
+    title: "Clipboard URL",
     subtitle: clipboardRaw,
     icon: { path: "images/clipboard.png" },
     arg: clipboardRaw
