@@ -667,10 +667,9 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>function status(watch_list_installed, stream_url) {
+				<string>function status(watch_list_installed) {
   return JSON.stringify({ alfredworkflow: {
-    variables: { watch_list_installed: watch_list_installed },
-    arg: stream_url
+    variables: { watch_list_installed: watch_list_installed }
   }})
 }
 
@@ -679,9 +678,9 @@ function run(argv) {
 
   try {
     Application("com.runningwithcrayons.Alfred").runTrigger("add_and_play_stream", { inWorkflow: "com.vitorgalvao.alfred.watchlist", withArgument: url })
-    return status(true, url)
+    return status(true)
   } catch {
-    return status(false, url)
+    return status(false)
   }
 }</string>
 				<key>scriptargtype</key>
