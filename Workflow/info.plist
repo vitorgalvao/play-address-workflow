@@ -58,16 +58,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>47F603A1-4B31-4168-8960-0940434C5C49</key>
 		<array>
@@ -288,21 +278,18 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>function status(download_media_installed, download_url) {
+				<string>function status(isInstalled) {
   return JSON.stringify({ alfredworkflow: {
-    variables: { download_media_installed: download_media_installed },
-    arg: download_url
+    variables: { download_media_installed: isInstalled }
   }})
 }
 
 function run(argv) {
-  const url = argv[0]
-
   try {
-    Application("com.runningwithcrayons.Alfred").runTrigger("download_video", { inWorkflow: "com.vitorgalvao.alfred.downloadmedia", withArgument: url })
-    return status(true, url)
+    Application("com.runningwithcrayons.Alfred").runTrigger("download_video", { inWorkflow: "com.vitorgalvao.alfred.downloadmedia", withArgument: argv[0] })
+    return status(true)
   } catch {
-    return status(false, url)
+    return status(false)
   }
 }</string>
 				<key>scriptargtype</key>
@@ -667,17 +654,15 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>function status(watch_list_installed) {
+				<string>function status(isInstalled) {
   return JSON.stringify({ alfredworkflow: {
-    variables: { watch_list_installed: watch_list_installed }
+    variables: { watch_list_installed: isInstalled }
   }})
 }
 
 function run(argv) {
-  const url = argv[0]
-
   try {
-    Application("com.runningwithcrayons.Alfred").runTrigger("add_and_play_stream", { inWorkflow: "com.vitorgalvao.alfred.watchlist", withArgument: url })
+    Application("com.runningwithcrayons.Alfred").runTrigger("add_and_play_stream", { inWorkflow: "com.vitorgalvao.alfred.watchlist", withArgument: argv[0] })
     return status(true)
   } catch {
     return status(false)
