@@ -103,18 +103,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>79289C24-D237-4E6E-A781-3C54066C0461</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>B2A69D82-CD4D-41C5-98E8-C72778CF8772</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -126,6 +114,16 @@
 		</array>
 		<key>777AB874-0986-4018-9837-93001E41F746</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>79289C24-D237-4E6E-A781-3C54066C0461</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
@@ -487,147 +485,6 @@ if (scriptFilterItems.length === 0) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>match_string</key>
-					<string>{query}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.matching.close</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<true/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly url="${1}"
-
-if yt-dlp --simulate --quiet "${url}"
-then
-  echo "{ \"alfredworkflow\" : { \"arg\" : \"${url}\", \"variables\" : { \"playable\" : true }}}"
-else
-  echo '{ "alfredworkflow" : { "variables" : { "playable" : false }}}'
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsfiles</key>
-				<false/>
-				<key>acceptsmulti</key>
-				<integer>0</integer>
-				<key>acceptstext</key>
-				<false/>
-				<key>acceptsurls</key>
-				<true/>
-				<key>name</key>
-				<string>Play URL</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.universalaction</string>
-			<key>uid</key>
-			<string>DB32027E-B578-4E99-A521-5069C2DE6EC7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:close_tabs}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Close tabs</string>
-						<key>uid</key>
-						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:playable}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Playable URL</string>
-						<key>uid</key>
-						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Not Playable</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>7154C69F-D0BB-4017-9966-746BC32094BC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>777AB874-0986-4018-9837-93001E41F746</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>skipqueryencode</key>
@@ -685,66 +542,21 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
+				<key>acceptsfiles</key>
 				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>35</integer>
-				<key>hotmod</key>
-				<integer>1048576</integer>
-				<key>hotstring</key>
-				<string>P</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
+				<key>acceptsmulti</key>
 				<integer>0</integer>
-				<key>relatedApps</key>
-				<array>
-					<string>com.google.Chrome.canary</string>
-					<string>com.vivaldi.Vivaldi</string>
-					<string>com.apple.Safari</string>
-					<string>com.brave.Browser</string>
-					<string>com.brave.Browser.beta</string>
-					<string>com.apple.SafariTechnologyPreview</string>
-					<string>com.microsoft.edgemac.Beta</string>
-					<string>com.microsoft.edgemac.Canary</string>
-					<string>com.microsoft.edgemac.Dev</string>
-					<string>com.brave.Browser.dev</string>
-					<string>org.chromium.ChromiumChromium</string>
-					<string>com.kagi.kagimacOS.RC</string>
-					<string>com.kagi.kagimacOS</string>
-					<string>com.brave.Browser.nightly</string>
-					<string>com.operasoftware.Opera</string>
-					<string>com.google.Chrome</string>
-					<string>company.thebrowser.Browser</string>
-				</array>
-				<key>relatedAppsMode</key>
-				<integer>1</integer>
+				<key>acceptstext</key>
+				<false/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Play URL</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.trigger.universalaction</string>
 			<key>uid</key>
-			<string>47F603A1-4B31-4168-8960-0940434C5C49</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict/>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.current</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</string>
+			<string>DB32027E-B578-4E99-A521-5069C2DE6EC7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -766,6 +578,14 @@ function run(argv) {
 			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
 			<string>53203E13-5E98-48A3-AA4E-CEED99A44558</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>777AB874-0986-4018-9837-93001E41F746</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -836,6 +656,72 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>35</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>P</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.google.Chrome.canary</string>
+					<string>com.vivaldi.Vivaldi</string>
+					<string>com.apple.Safari</string>
+					<string>com.brave.Browser</string>
+					<string>com.brave.Browser.beta</string>
+					<string>com.apple.SafariTechnologyPreview</string>
+					<string>com.microsoft.edgemac.Beta</string>
+					<string>com.microsoft.edgemac.Canary</string>
+					<string>com.microsoft.edgemac.Dev</string>
+					<string>com.brave.Browser.dev</string>
+					<string>org.chromium.ChromiumChromium</string>
+					<string>com.kagi.kagimacOS.RC</string>
+					<string>com.kagi.kagimacOS</string>
+					<string>com.brave.Browser.nightly</string>
+					<string>com.operasoftware.Opera</string>
+					<string>com.google.Chrome</string>
+					<string>company.thebrowser.Browser</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>47F603A1-4B31-4168-8960-0940434C5C49</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.current</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -880,6 +766,118 @@ exit 1</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{query}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.matching.close</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly url="${1}"
+
+if yt-dlp --simulate --quiet "${url}"
+then
+  echo "{ \"alfredworkflow\" : { \"arg\" : \"${url}\", \"variables\" : { \"playable\" : true }}}"
+else
+  echo '{ "alfredworkflow" : { "variables" : { "playable" : false }}}'
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:close_tabs}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Close tabs</string>
+						<key>uid</key>
+						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:playable}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Playable URL</string>
+						<key>uid</key>
+						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Not Playable</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7154C69F-D0BB-4017-9966-746BC32094BC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>soundname</key>
 				<string>Basso</string>
 				<key>systemsound</key>
@@ -913,18 +911,18 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>note</key>
 			<string>Play video</string>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>740</real>
 			<key>ypos</key>
-			<real>525</real>
+			<real>375</real>
 		</dict>
 		<key>2A6E6714-5543-4382-85D9-2893092994AE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>1270</real>
+			<real>900</real>
 			<key>ypos</key>
-			<real>390</real>
+			<real>240</real>
 		</dict>
 		<key>2C17F6E1-CA91-4D8D-B014-91010DFDCD35</key>
 		<dict>
@@ -958,25 +956,25 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>1345</real>
+			<real>975</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>230</real>
 		</dict>
 		<key>61AA3E40-F1E8-4E01-98A6-8B34C896960C</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>1510</real>
+			<real>1140</real>
 			<key>ypos</key>
-			<real>360</real>
+			<real>210</real>
 		</dict>
 		<key>7154C69F-D0BB-4017-9966-746BC32094BC</key>
 		<dict>
 			<key>xpos</key>
-			<real>745</real>
+			<real>755</real>
 			<key>ypos</key>
-			<real>230</real>
+			<real>550</real>
 		</dict>
 		<key>777AB874-0986-4018-9837-93001E41F746</key>
 		<dict>
@@ -988,9 +986,9 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>79289C24-D237-4E6E-A781-3C54066C0461</key>
 		<dict>
 			<key>xpos</key>
-			<real>940</real>
+			<real>570</real>
 			<key>ypos</key>
-			<real>395</real>
+			<real>245</real>
 		</dict>
 		<key>7B7200CD-A926-4DE2-BE44-8770C4D74A76</key>
 		<dict>
@@ -999,9 +997,9 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>note</key>
 			<string>Play video with Watch List</string>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>740</real>
 			<key>ypos</key>
-			<real>360</real>
+			<real>210</real>
 		</dict>
 		<key>872367ED-A1F6-4BE8-851D-B7D279BFEC8D</key>
 		<dict>
@@ -1033,14 +1031,14 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>xpos</key>
 			<real>925</real>
 			<key>ypos</key>
-			<real>525</real>
+			<real>680</real>
 		</dict>
 		<key>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</key>
 		<dict>
 			<key>xpos</key>
 			<real>1110</real>
 			<key>ypos</key>
-			<real>195</real>
+			<real>515</real>
 		</dict>
 		<key>D96FCE65-4967-4D6A-806F-628154EBCADB</key>
 		<dict>
@@ -1049,7 +1047,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>xpos</key>
 			<real>560</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>530</real>
 		</dict>
 		<key>DB32027E-B578-4E99-A521-5069C2DE6EC7</key>
 		<dict>
@@ -1074,7 +1072,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>xpos</key>
 			<real>965</real>
 			<key>ypos</key>
-			<real>225</real>
+			<real>545</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
