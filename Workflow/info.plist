@@ -91,7 +91,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
+				<string>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -126,7 +126,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+				<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -253,6 +253,18 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D96FCE65-4967-4D6A-806F-628154EBCADB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A89E2FE8-86E5-4F15-B911-2459A631DBAE</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -642,7 +654,7 @@ function run(argv) {
 					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>else</string>
+				<string>Else</string>
 				<key>hideelse</key>
 				<false/>
 			</dict>
@@ -784,6 +796,67 @@ exit 1</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:close_tabs}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>close_always</string>
+						<key>outputlabel</key>
+						<string>Close Always</string>
+						<key>uid</key>
+						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:close_tabs}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>close_matching</string>
+						<key>outputlabel</key>
+						<string>Close Playable</string>
+						<key>uid</key>
+						<string>A89E2FE8-86E5-4F15-B911-2459A631DBAE</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Basso</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>B2A69D82-CD4D-41C5-98E8-C72778CF8772</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<true/>
 				<key>escaping</key>
@@ -818,38 +891,6 @@ fi</string>
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{var:close_tabs}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Close tabs</string>
-						<key>uid</key>
-						<string>D81A672C-28D0-454C-A1DB-EAAA378FEE2B</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>FC792E1A-6151-4F5B-8A61-A3ECB33CE434</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
 						<string>{var:playable}</string>
 						<key>matchcasesensitive</key>
 						<false/>
@@ -872,21 +913,6 @@ fi</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>7154C69F-D0BB-4017-9966-746BC32094BC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>soundname</key>
-				<string>Basso</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>B2A69D82-CD4D-41C5-98E8-C72778CF8772</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -972,9 +998,9 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>7154C69F-D0BB-4017-9966-746BC32094BC</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<real>935</real>
 			<key>ypos</key>
-			<real>550</real>
+			<real>665</real>
 		</dict>
 		<key>777AB874-0986-4018-9837-93001E41F746</key>
 		<dict>
@@ -1029,25 +1055,25 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 		<key>B2A69D82-CD4D-41C5-98E8-C72778CF8772</key>
 		<dict>
 			<key>xpos</key>
-			<real>925</real>
+			<real>1140</real>
 			<key>ypos</key>
-			<real>680</real>
+			<real>645</real>
 		</dict>
 		<key>C6019B0E-6B5D-4D6E-96A2-63D020FD7E16</key>
 		<dict>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>1140</real>
 			<key>ypos</key>
-			<real>515</real>
+			<real>510</real>
 		</dict>
 		<key>D96FCE65-4967-4D6A-806F-628154EBCADB</key>
 		<dict>
 			<key>note</key>
 			<string>Check if URL can be played</string>
 			<key>xpos</key>
-			<real>560</real>
+			<real>740</real>
 			<key>ypos</key>
-			<real>530</real>
+			<real>645</real>
 		</dict>
 		<key>DB32027E-B578-4E99-A521-5069C2DE6EC7</key>
 		<dict>
@@ -1070,7 +1096,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>note</key>
 			<string>Continue if closing tabs</string>
 			<key>xpos</key>
-			<real>965</real>
+			<real>595</real>
 			<key>ypos</key>
 			<real>545</real>
 		</dict>
@@ -1096,24 +1122,35 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>play_keyword</string>
+			<string>_</string>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Close matching browser tabs</string>
+				<string>nothing</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Do Nothing</string>
+						<string>nothing</string>
+					</array>
+					<array>
+						<string>Close</string>
+						<string>close_always</string>
+					</array>
+					<array>
+						<string>Close if Playable</string>
+						<string>close_payable</string>
+					</array>
+				</array>
 			</dict>
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>Output</string>
+			<string>Browser Tabs</string>
 			<key>type</key>
-			<string>checkbox</string>
+			<string>popupbutton</string>
 			<key>variable</key>
 			<string>close_tabs</string>
 		</dict>
@@ -1130,7 +1167,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string></string>
+			<string>Watch List</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
