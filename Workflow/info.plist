@@ -1122,7 +1122,7 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>_</string>
+			<string>play_keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>
