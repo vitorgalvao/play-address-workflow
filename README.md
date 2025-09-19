@@ -6,12 +6,12 @@ Play the URL in the frontmost browser or clipboard
 
 ## Usage
 
-Stream the the most recent URL in your [Clipboard History](https://www.alfredapp.com/help/features/clipboard/) or the URL in the frontmost browser tab to a local video player via the `playadd` keyword.
+Stream the most recent URL in your [Clipboard History](https://www.alfredapp.com/help/features/clipboard/) or the URL in the frontmost browser tab to a local video player via the `playadd` keyword.
 
 ![Showing available URLs](Workflow/images/about/playadd.png)
 
-* <kbd>↩&#xFE0E;</kbd> Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://iina.io/), or [VLC](http://www.videolan.org/vlc/index.html),
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
+* <kbd>↩</kbd> Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://iina.io/), or [VLC](http://www.videolan.org/vlc/index.html),
+* <kbd>⌘</kbd><kbd>↩</kbd> Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
 
 Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.
 
