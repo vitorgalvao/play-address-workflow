@@ -10,8 +10,8 @@ Stream the most recent URL in your [Clipboard History](https://www.alfredapp.com
 
 ![Showing available URLs](Workflow/images/about/playadd.png)
 
-* <kbd>↩</kbd> Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://iina.io/), or [VLC](http://www.videolan.org/vlc/index.html),
-* <kbd>⌘</kbd><kbd>↩</kbd> Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
+* <kbd>↩&#xFE0E;</kbd> Stream URL. Requires [mpv](http://mpv.io/), [IINA](https://iina.io/), or [VLC](http://www.videolan.org/vlc/index.html),
+* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Download URL. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
 
 Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.
 
