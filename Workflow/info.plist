@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>53203E13-5E98-48A3-AA4E-CEED99A44558</string>
+				<string>EB5F0AF0-068E-44D0-BE79-CE8C5668675F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -68,21 +68,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>53203E13-5E98-48A3-AA4E-CEED99A44558</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>61AA3E40-F1E8-4E01-98A6-8B34C896960C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>_button1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -223,6 +208,33 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EB5F0AF0-068E-44D0-BE79-CE8C5668675F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C816A533-CC86-409D-8C81-838DAA20E66B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9EE6B383-6338-4662-99B6-24F01CE373F2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -511,7 +523,7 @@ if (scriptFilterItems.length === 0) {
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>61AA3E40-F1E8-4E01-98A6-8B34C896960C</string>
+			<string>C816A533-CC86-409D-8C81-838DAA20E66B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -576,20 +588,20 @@ function run(argv) {
 			<key>config</key>
 			<dict>
 				<key>button1</key>
-				<string>Install From the Alfred Gallery</string>
+				<string>Install from the Alfred Gallery</string>
 				<key>button2</key>
-				<string>Cancel</string>
+				<string>Reveal Configuration</string>
 				<key>button3</key>
-				<string></string>
+				<string>Cancel</string>
 				<key>description</key>
-				<string>The Watch List workflow is required to play a stream through it.</string>
+				<string>The option to add to the Watch List is enabled but the workflow is not installed</string>
 				<key>title</key>
 				<string>Watch List Not Installed</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
-			<string>53203E13-5E98-48A3-AA4E-CEED99A44558</string>
+			<string>EB5F0AF0-068E-44D0-BE79-CE8C5668675F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -662,6 +674,27 @@ function run(argv) {
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>79289C24-D237-4E6E-A781-3C54066C0461</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;{const:alfred_workflow_uid}&gt;userconfig&gt;add_to_watchlist</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9EE6B383-6338-4662-99B6-24F01CE373F2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -977,24 +1010,6 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>ypos</key>
 			<real>360</real>
 		</dict>
-		<key>53203E13-5E98-48A3-AA4E-CEED99A44558</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>xpos</key>
-			<real>975</real>
-			<key>ypos</key>
-			<real>230</real>
-		</dict>
-		<key>61AA3E40-F1E8-4E01-98A6-8B34C896960C</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>xpos</key>
-			<real>1140</real>
-			<key>ypos</key>
-			<real>210</real>
-		</dict>
 		<key>7154C69F-D0BB-4017-9966-746BC32094BC</key>
 		<dict>
 			<key>xpos</key>
@@ -1043,6 +1058,15 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>ypos</key>
 			<real>75</real>
 		</dict>
+		<key>9EE6B383-6338-4662-99B6-24F01CE373F2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1140</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
 		<key>A139310D-4E65-49FB-BBA2-6E0130FC6051</key>
 		<dict>
 			<key>colorindex</key>
@@ -1066,6 +1090,15 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<key>ypos</key>
 			<real>510</real>
 		</dict>
+		<key>C816A533-CC86-409D-8C81-838DAA20E66B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1140</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
 		<key>D96FCE65-4967-4D6A-806F-628154EBCADB</key>
 		<dict>
 			<key>note</key>
@@ -1081,6 +1114,15 @@ Set if matching browser tabs close or if the stream is passed through [Watch Lis
 			<real>70</real>
 			<key>ypos</key>
 			<real>210</real>
+		</dict>
+		<key>EB5F0AF0-068E-44D0-BE79-CE8C5668675F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>975</real>
+			<key>ypos</key>
+			<real>215</real>
 		</dict>
 		<key>F12F88AD-A545-45A5-B105-3741BD747F94</key>
 		<dict>
